@@ -6,7 +6,7 @@ const arithmetic = require('../lib/arithmetic')
 describe('../lib/greet.js', function() {
   describe('default properties', () => {
     test('should return hello world', () => {
-      expect(greet.hello('world')).toEqual('hello world!')
+      expect(greet.hello('world!')).toEqual('hello world!')
     })
   })
 })
