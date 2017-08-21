@@ -8,7 +8,7 @@ describe('greet.js', function() {
   describe('default properties', () => {
     test('should have hello concatenated with the input', () => {
 
-      expect(greet('bob')).toEqual('hello bob.');
+      expect(greet('world')).toEqual('hello world.');
     });
   });
 });
