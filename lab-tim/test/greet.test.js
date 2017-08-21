@@ -1,9 +1,9 @@
 'use strict';
 
-const greet = require('./lib/greet.js');
+const greet = require('../lib/greet');
 
 describe('greet.js', function() {
   test('returns greeting with name', () => {
-    expect(greet('Tim').toEqual('Hello Tim'))
+    expect(greet.hello('Tim')).toEqual('Hello Tim')
   })
 })

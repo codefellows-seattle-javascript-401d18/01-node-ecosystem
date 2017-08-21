@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports = (name) => {
+let Say = module.exports = {};
+
+Say.hello = function(name) {
   return `Hello ${name}`
-}
+};
