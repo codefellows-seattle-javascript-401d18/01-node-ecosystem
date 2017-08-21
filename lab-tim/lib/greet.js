@@ -3,5 +3,9 @@
 let Say = module.exports = {};
 
 Say.hello = function(name) {
-  return `Hello ${name}`
+  if (typeof name === 'string') {
+    return `Hello ${name}`
+  } else {
+    return null
+  }
 };

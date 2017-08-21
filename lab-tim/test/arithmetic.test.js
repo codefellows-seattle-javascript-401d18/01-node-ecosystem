@@ -7,4 +7,8 @@ describe('arithmetic.js', function() {
     expect(arithmetic.add(10, 5)).toEqual(15)
     expect(arithmetic.sub(10, 5)).toEqual(5)
   })
+  test('if not numbers return error message', () => {
+    expect(arithmetic.add('bob', 'jim')).toEqual('Please enter 2 numbers')
+    expect(arithmetic.sub('bob', 'jim')).toEqual('Please enter 2 numbers')
+  })
 })
