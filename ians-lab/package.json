@@ -1,0 +1,28 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "Day 1 Lab for CodeFellows JavaScript 401",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwaites/01-node-ecosystem.git"
+  },
+  "keywords": [
+    "TDD",
+    "JavaScript",
+    "Node",
+    "Jest"
+  ],
+  "author": "Ian Waites",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianwaites/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/ianwaites/01-node-ecosystem#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
