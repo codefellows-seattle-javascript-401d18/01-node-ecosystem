@@ -9,13 +9,14 @@
   },
   "scripts": {
     "test": "jest --verbose",
+    "test:watch": "jest --verbose --watchAll",
     "start": "node index.js"
   },
   "keywords": [],
   "author": "Tim Turner",
   "license": "MIT",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "jest": "^20.0.4"
