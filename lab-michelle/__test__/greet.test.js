@@ -10,7 +10,7 @@ describe('greet.js', function() {
     test('Should return hello Bob', () => {
       expect(greet.hello('Bob')).toEqual('hello Bob!');
     });
-    test.only('Should return null', () => {
+    test('Should return null', () => {
       expect(greet.hello(NaN)).toEqual(null);
     });
     test('Should return null', () => {
