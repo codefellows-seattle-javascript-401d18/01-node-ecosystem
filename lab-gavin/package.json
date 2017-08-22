@@ -7,11 +7,12 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gavin Thomas",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^20.0.4"
   }
