@@ -9,7 +9,7 @@ describe('../lib/greet.js', function() {
       expect(greet.hello('world!')).toEqual('hello world!')
     })
     test('should return null', ()=>{
-      expect(greet.hello('')).toEqual(null)
+      expect(greet.hello(200)).toEqual(null)
     })
   })
 })
