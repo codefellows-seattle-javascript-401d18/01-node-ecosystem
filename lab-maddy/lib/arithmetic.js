@@ -2,9 +2,9 @@
 //this is where unit tests will live
 //this module should have add and sub methods
 
-let math = module.exports = {};
+let math = module.exports = {}; //const
 
-math.add = function(a, b){
+math.add = function(a, b){ //numOne, numTwo
   if((typeof a) && (typeof b) === 'number') {
     let sum = a + b;
     return sum;

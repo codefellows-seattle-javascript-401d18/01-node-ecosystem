@@ -1,7 +1,11 @@
 'use strict';
-//this is where modules will live
+//this is where the greet module will live
+
 
 let newName = module.exports = {};
+// module.exports = function(){ //npm run test
+//  return 'Hello Scott.' //npm run test after each new added piece of code 
+//}
 
 newName.hello = function(name){
   if((typeof name) === 'string') {
