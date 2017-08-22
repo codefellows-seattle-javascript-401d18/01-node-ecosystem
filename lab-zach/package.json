@@ -1,0 +1,17 @@
+{
+  "name": "lab-zach",
+  "version": "1.0.0",
+  "description": "401-Lab-1\u001b[D0\u001b[C\u001b[D1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
