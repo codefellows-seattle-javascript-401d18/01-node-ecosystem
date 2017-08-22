@@ -6,12 +6,12 @@
 
 const greet = require('../lib/greet');
 
-describe('Testing: index.js', function() {
+describe('Testing greet.js', function() {
   describe('#greet', () => {
     test('should return Hello and the name passed as argument', () => {
       expect(greet('Tim')).toEqual('Hello Tim')
     })
-    test('return null if non-string values', () => {
+    test('should return null if non-string values', () => {
       expect(greet(456)).toEqual(null)
     })
   })

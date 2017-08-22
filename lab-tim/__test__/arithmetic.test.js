@@ -6,20 +6,20 @@
 
 const arithmetic = require('../lib/arithmetic');
 
-describe('arithmetic.js', function() {
+describe('Testing arithmetic.js', function() {
   describe('#add', () => {
-    test('returns numbers added', () => {
+    test('should return numbers added', () => {
       expect(arithmetic.add(10, 5)).toEqual(15)
     })
-    test('returns error message if arguments are not numbers', () => {
+    test('should return error if arguments are not numbers', () => {
       expect(arithmetic.add('bob', 'jim')).toEqual('Please enter 2 numbers')
     })
   })
   describe('#sub', () => {
-    test('returns numbers subtracted', () => {
+    test('should return numbers subtracted', () => {
       expect(arithmetic.sub(10, 5)).toEqual(5)
     })
-    test('returns NaN if arguments are not numbers', () => {
+    test('should return NaN if arguments are not numbers', () => {
       expect(arithmetic.sub('bob', 'jim')).toEqual(NaN)
     })
   })
