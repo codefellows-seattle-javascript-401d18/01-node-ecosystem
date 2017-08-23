@@ -3,9 +3,9 @@
 let greet = module.exports = {}
 
 greet.hello = function(name){
-  if (name) {
-    return 'hello ' + name
+  if (typeof name === 'string') {
+    return 'hello ' + name + '.';
   } else {
-    return null
+    return null;
   }
-}
+};
