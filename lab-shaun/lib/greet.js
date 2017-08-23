@@ -6,5 +6,4 @@ module.exports = (str) => {
   } else {
     return null;
   }
-
 };
