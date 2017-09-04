@@ -1,11 +1,6 @@
 'use strict';
 
-let theUser = module.exports = {};
-
-theUser.hello = function(a){
-  if (a) {
-    return ('Hello ' + a);
-  } else {
-    return null;
-  }
+module.exports = function(name){
+  if(typeof name !== 'string') return null;
+  return `Hello ${name}`;
 };
