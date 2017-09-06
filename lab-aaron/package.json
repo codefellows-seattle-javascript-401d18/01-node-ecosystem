@@ -10,8 +10,8 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Aaron McPeek",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^20.0.4"
   }

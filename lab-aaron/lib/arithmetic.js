@@ -1,12 +1,12 @@
 'use strict';
 
-let theMaths = module.exports = {};
+const math = module.exports = {};
 
 
-theMaths.add = function(a, b) {
+math.add = function(a, b) {
   return a + b;
 };
 
-theMaths.sub = function(a, b){
+math.sub = function(a, b){
   return a - b;
 };
