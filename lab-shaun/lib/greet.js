@@ -1,11 +1,9 @@
-'use strict'
+'use strict';
 
-let greet = module.exports = {}
-
-greet.hello = function(name){
-  if (name) {
-    return 'hello ' + name
+module.exports = (str) => {
+  if (typeof str === 'string') {
+    return 'hello ' + str + '.';
   } else {
-    return null
+    return null;
   }
-}
+};
